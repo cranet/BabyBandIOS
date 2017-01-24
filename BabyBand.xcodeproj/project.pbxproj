@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1653F4E2A6D9C6B4000BA47C /* Pods_BabyBand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC800F4C2135602DCC29373F /* Pods_BabyBand.framework */; };
+		3A2F8EE81DD274E900ECE1D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F8EE71DD274E900ECE1D3 /* AppDelegate.swift */; };
+		3A2F8EEA1DD274E900ECE1D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F8EE91DD274E900ECE1D3 /* ViewController.swift */; };
+		3A2F8EED1DD274E900ECE1D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F8EEB1DD274E900ECE1D3 /* Main.storyboard */; };
+		3A2F8EEF1DD274E900ECE1D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F8EEE1DD274E900ECE1D3 /* Assets.xcassets */; };
+		3A2F8EF21DD274E900ECE1D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F8EF01DD274E900ECE1D3 /* LaunchScreen.storyboard */; };
+		3A2F8EFA1DD276A200ECE1D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F8EF91DD276A200ECE1D3 /* GoogleService-Info.plist */; };
+		3AC32D351DD2D0E70004983E /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC32D341DD2D0E70004983E /* heart.png */; };
+		3AC32D371DD2D1ED0004983E /* jar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC32D361DD2D1ED0004983E /* jar.png */; };
+		3AC32D391DD2E5520004983E /* thermo_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC32D381DD2E5520004983E /* thermo_new.png */; };
+		3AC32D3B1DD2E64D0004983E /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC32D3A1DD2E64D0004983E /* marker.png */; };
+		3AC32D3D1DD2E99D0004983E /* signal_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC32D3C1DD2E99D0004983E /* signal_new.png */; };
+		3AC32D3F1DD2ED0C0004983E /* drawer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC32D3E1DD2ED0C0004983E /* drawer.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A2F8EE41DD274E900ECE1D3 /* BabyBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2F8EE71DD274E900ECE1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A2F8EE91DD274E900ECE1D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A2F8EEC1DD274E900ECE1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2F8EEE1DD274E900ECE1D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2F8EF11DD274E900ECE1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2F8EF31DD274E900ECE1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2F8EF91DD276A200ECE1D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AC32D341DD2D0E70004983E /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		3AC32D361DD2D1ED0004983E /* jar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jar.png; sourceTree = "<group>"; };
+		3AC32D381DD2E5520004983E /* thermo_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thermo_new.png; sourceTree = "<group>"; };
+		3AC32D3A1DD2E64D0004983E /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		3AC32D3C1DD2E99D0004983E /* signal_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signal_new.png; sourceTree = "<group>"; };
+		3AC32D3E1DD2ED0C0004983E /* drawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawer.png; sourceTree = "<group>"; };
+		7406AB2254AE64982BAF3193 /* Pods-BabyBand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyBand.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyBand/Pods-BabyBand.debug.xcconfig"; sourceTree = "<group>"; };
+		EC800F4C2135602DCC29373F /* Pods_BabyBand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyBand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB36A2B8657E756CB95FD70B /* Pods-BabyBand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyBand.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyBand/Pods-BabyBand.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2F8EE11DD274E800ECE1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1653F4E2A6D9C6B4000BA47C /* Pods_BabyBand.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2F8EDB1DD274E800ECE1D3 = {
+			isa = PBXGroup;
+			children = (
+				3A2F8EE61DD274E900ECE1D3 /* BabyBand */,
+				3A2F8EE51DD274E900ECE1D3 /* Products */,
+				460DB0A0CA29B757D65BB481 /* Pods */,
+				9F0AD0FF1FD795D144156189 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2F8EE51DD274E900ECE1D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F8EE41DD274E900ECE1D3 /* BabyBand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2F8EE61DD274E900ECE1D3 /* BabyBand */ = {
+			isa = PBXGroup;
+			children = (
+				3AC32D3E1DD2ED0C0004983E /* drawer.png */,
+				3AC32D3C1DD2E99D0004983E /* signal_new.png */,
+				3AC32D3A1DD2E64D0004983E /* marker.png */,
+				3AC32D381DD2E5520004983E /* thermo_new.png */,
+				3AC32D361DD2D1ED0004983E /* jar.png */,
+				3AC32D341DD2D0E70004983E /* heart.png */,
+				3A2F8EF91DD276A200ECE1D3 /* GoogleService-Info.plist */,
+				3A2F8EE71DD274E900ECE1D3 /* AppDelegate.swift */,
+				3A2F8EE91DD274E900ECE1D3 /* ViewController.swift */,
+				3A2F8EEB1DD274E900ECE1D3 /* Main.storyboard */,
+				3A2F8EEE1DD274E900ECE1D3 /* Assets.xcassets */,
+				3A2F8EF01DD274E900ECE1D3 /* LaunchScreen.storyboard */,
+				3A2F8EF31DD274E900ECE1D3 /* Info.plist */,
+			);
+			path = BabyBand;
+			sourceTree = "<group>";
+		};
+		460DB0A0CA29B757D65BB481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7406AB2254AE64982BAF3193 /* Pods-BabyBand.debug.xcconfig */,
+				FB36A2B8657E756CB95FD70B /* Pods-BabyBand.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F0AD0FF1FD795D144156189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC800F4C2135602DCC29373F /* Pods_BabyBand.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2F8EE31DD274E800ECE1D3 /* BabyBand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2F8EF61DD274E900ECE1D3 /* Build configuration list for PBXNativeTarget "BabyBand" */;
+			buildPhases = (
+				35BD3796E0C4FD4A58C71540 /* [CP] Check Pods Manifest.lock */,
+				3A2F8EE01DD274E800ECE1D3 /* Sources */,
+				3A2F8EE11DD274E800ECE1D3 /* Frameworks */,
+				3A2F8EE21DD274E800ECE1D3 /* Resources */,
+				68798CFA27BEA5A1E317420D /* [CP] Embed Pods Frameworks */,
+				0D47235933392CA6A562D0D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyBand;
+			productName = BabyBand;
+			productReference = 3A2F8EE41DD274E900ECE1D3 /* BabyBand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2F8EDC1DD274E800ECE1D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = BabyBand;
+				TargetAttributes = {
+					3A2F8EE31DD274E800ECE1D3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 686U87CD24;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A2F8EDF1DD274E800ECE1D3 /* Build configuration list for PBXProject "BabyBand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2F8EDB1DD274E800ECE1D3;
+			productRefGroup = 3A2F8EE51DD274E900ECE1D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2F8EE31DD274E800ECE1D3 /* BabyBand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2F8EE21DD274E800ECE1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC32D3D1DD2E99D0004983E /* signal_new.png in Resources */,
+				3A2F8EF21DD274E900ECE1D3 /* LaunchScreen.storyboard in Resources */,
+				3A2F8EFA1DD276A200ECE1D3 /* GoogleService-Info.plist in Resources */,
+				3AC32D351DD2D0E70004983E /* heart.png in Resources */,
+				3AC32D391DD2E5520004983E /* thermo_new.png in Resources */,
+				3AC32D371DD2D1ED0004983E /* jar.png in Resources */,
+				3AC32D3F1DD2ED0C0004983E /* drawer.png in Resources */,
+				3A2F8EEF1DD274E900ECE1D3 /* Assets.xcassets in Resources */,
+				3A2F8EED1DD274E900ECE1D3 /* Main.storyboard in Resources */,
+				3AC32D3B1DD2E64D0004983E /* marker.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D47235933392CA6A562D0D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyBand/Pods-BabyBand-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35BD3796E0C4FD4A58C71540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68798CFA27BEA5A1E317420D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyBand/Pods-BabyBand-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2F8EE01DD274E800ECE1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2F8EEA1DD274E900ECE1D3 /* ViewController.swift in Sources */,
+				3A2F8EE81DD274E900ECE1D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A2F8EEB1DD274E900ECE1D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2F8EEC1DD274E900ECE1D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2F8EF01DD274E900ECE1D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2F8EF11DD274E900ECE1D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A2F8EF41DD274E900ECE1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2F8EF51DD274E900ECE1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2F8EF71DD274E900ECE1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7406AB2254AE64982BAF3193 /* Pods-BabyBand.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 686U87CD24;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BabyBand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.BabyBand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3A2F8EF81DD274E900ECE1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB36A2B8657E756CB95FD70B /* Pods-BabyBand.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 686U87CD24;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BabyBand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.BabyBand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2F8EDF1DD274E800ECE1D3 /* Build configuration list for PBXProject "BabyBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2F8EF41DD274E900ECE1D3 /* Debug */,
+				3A2F8EF51DD274E900ECE1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2F8EF61DD274E900ECE1D3 /* Build configuration list for PBXNativeTarget "BabyBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2F8EF71DD274E900ECE1D3 /* Debug */,
+				3A2F8EF81DD274E900ECE1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2F8EDC1DD274E800ECE1D3 /* Project object */;
+}
